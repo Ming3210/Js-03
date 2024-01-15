@@ -17,8 +17,12 @@ if(a>0&& b>0 && b<13){
         case 9:
         case 11:
             alert("Tháng này có 30 ngày")
+               break;
         case 2:
             alert("Tháng này có 29 ngày")
+               break;
+           default:
+               alert("Nhập sai tháng")
        }
     }else {
         switch(a){
@@ -36,8 +40,12 @@ if(a>0&& b>0 && b<13){
             case 9:
             case 11:
                 alert("Tháng này có 30 ngày")
+                break;
             case 2:
                 alert("Tháng này có 28 ngày")
+                break;
+            default:
+               alert("Nhập sai tháng")
            }
     }
 }else alert("Invalid Input")
